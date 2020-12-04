@@ -13,3 +13,9 @@
  *= require_tree .
  *= require_self
  */
+
+
+.columns:not(.is-desktop) {
+    display: flex;
+    flex-wrap: wrap;
+}
