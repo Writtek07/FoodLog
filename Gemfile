@@ -61,3 +61,5 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem "twitter", "~> 7.0"
 
 gem "awesome_print", "~> 1.8"
+
+gem "devise", "~> 4.7"

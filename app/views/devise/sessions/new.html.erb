@@ -1,0 +1,28 @@
+<div class="columns mt-6 is-centered">
+  <div class="column is-one-quarter">
+    <h2 class="title is-2">Sign In</h2>
+
+    <%= form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
+      <div class="field">
+        <%= f.email_field :email, autofocus: true, autocomplete: "email", class: "input is-rounded is-info", placeholder: "Enter Email" %>
+      </div>
+
+      <div class="field">
+        <%= f.password_field :password, autocomplete: "current-password", class: "input is-info is-rounded", placeholder: "Enter password" %>
+      </div>
+
+      <% if devise_mapping.rememberable? %>
+        <div class="field ml-3">
+          <%= f.check_box :remember_me, class: "checkbox" %>
+          <%= f.label :remember_me, class: "has-text-justified is-family-monospace is-size-5" %>
+        </div>
+      <% end %>
+
+      <div class="actions">
+        <%= f.submit "Log in", class: "button is-outlined is-info is-fullwidth" %>
+      </div>
+    <% end %><br />
+
+    <%= render "devise/shared/links" %>
+  </div>
+</div>

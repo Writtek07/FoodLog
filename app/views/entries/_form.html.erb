@@ -42,7 +42,7 @@
   <div class="field">
     <%= form.label :category, class: "label" %>
     <div class="select">
-      <%= form.select :category_id, Category.all.collect {|u| [u.title, u.id]} %>
+      <%= form.select :category_id, Category.all.collect {|u| [u.title, u.id]}%>
     </div>
   </div>
   <div class="columns is-centered">

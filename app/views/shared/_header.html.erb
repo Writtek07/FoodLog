@@ -16,7 +16,8 @@
         <div id="navbarMenuHeroB" class="navbar-menu">
           <div class="navbar-end">
           	<span class="navbar-item">
-            	 <%= link_to "Create new entry", new_entry_path, class: "button is-success" %>
+            	 <%= link_to "Create new category", new_category_path, class: "button is-success is-outlined md-6 mr-2" %>
+               <%= button_to "Logout", destroy_user_session_path, method: :delete, class: "button is-outlined is-danger" %>
             </span>
           </div>
         </div>
