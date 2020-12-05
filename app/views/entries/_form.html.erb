@@ -45,8 +45,16 @@
       <%= form.select :category_id, Category.all.collect {|u| [u.title, u.id]} %>
     </div>
   </div>
-
-  <div class="actions">
-    <%= form.submit class: "button is-success" %>
+  <div class="columns is-centered">
+    <div class="column is-half">
+      <div class="actions">
+        <%= form.submit class: "button is-success is-outlined is-fullwidth" %>
+      </div>
+        
+      <br/><div class="buttons">
+        <%= link_to "Back", root_path, class: "button is-link is-outlined is-fullwidth" %>
+      </div>
+    </div>
   </div>
+
 <% end %>
