@@ -1,7 +1,6 @@
 <div class="columns is-centered mt-6">
 	<div class="column is-one-third">
-		<h1 class="is-size-2 has-text-weight-bold md-3">New Category</h1>
-		<%= render 'form', category: @category, class: "button is-primary is-focused" %><br/>
-		<%= link_to 'Back', categories_path, class: "button is-danger" %>
+		<%= render 'form', category: @category %><br/>
+		<%= link_to 'Back', categories_path, class: "button is-danger is-link is-outlined is-medium" %>
 	</div>
 </div>
