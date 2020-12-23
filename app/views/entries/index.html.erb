@@ -4,6 +4,7 @@
 
   <div class="columns mt-6 is-centered">
     <% @entries.each do |entry| %>
+      <% if entry.user == current_user %>
         <div class="column is-one-quarter">
           <div class="card">
             <header class="card-header">
@@ -26,6 +27,7 @@
           </div>
         </div>
         </div> 
+      <% end %>
     <% end %>
   </div>
 
