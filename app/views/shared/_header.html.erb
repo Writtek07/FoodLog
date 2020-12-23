@@ -16,8 +16,10 @@
         <div id="navbarMenuHeroB" class="navbar-menu">
           <div class="navbar-end">
           	<span class="navbar-item">
+              <% if user_signed_in? %>
             	 <%= link_to "Create new category", new_category_path, class: "button is-success is-outlined md-6 mr-2" %>
                <%= button_to "Logout", destroy_user_session_path, method: :delete, class: "button is-outlined is-danger" %>
+              <% end %>
             </span>
           </div>
         </div>
