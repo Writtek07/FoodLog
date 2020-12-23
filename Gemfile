@@ -63,3 +63,5 @@ gem "twitter", "~> 7.0"
 gem "awesome_print", "~> 1.8"
 
 gem "devise", "~> 4.7"
+
+gem "font-awesome-sass"
