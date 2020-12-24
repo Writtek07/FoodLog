@@ -11,12 +11,19 @@
     </div>
   <% end %>
 
-  <div class="field">
-    <%= form.label :title, "Enter Title for Category", class: "label is-size-2 has-text-weight-bold md-3 md-6" %>
-    <%= form.text_field :title, class: "input" %>
-  </div>
+  <div class="columns mt-6 is-centered">
+    <div class="column is-one-third">
+      <div class="field">
+        <%= form.label :title, "Enter Title for Category", class: "is-family-primary is-size-4 has-text-justified has-text-weight-semibold" %>
+        <div class="control">
+          <br /><%= form.text_field :title, class: "input" %>
+        </div>
+      </div>
 
-  <div class="actions">
-    <%= form.submit class: "button is-link is-outlined is-fullwidth" %>
+      <div class="actions">
+        <%= form.submit class: "button is-info is-outlined is-fullwidth" %>
+      </div>
+    </div>
   </div>
 <% end %>
+

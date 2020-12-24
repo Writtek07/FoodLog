@@ -20,6 +20,10 @@
     flex-wrap: wrap;
 }
 
+$table-cell-heading-color: "$text-strong";
+$table-foot-cell-border-width: "3px 0 0";
 
 @import "font-awesome-sprockets";
 @import "font-awesome";
+@import "bulma"
+

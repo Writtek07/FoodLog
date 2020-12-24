@@ -1,9 +1,17 @@
-<p id="notice"><%= notice %></p>
+<div class="columns mt-6 is-centered">
+  <div class="column is-one-third">
+    <nav class="panel is-info">
+      <p class="panel-heading">Title</p>
+      <div class="panel-block">
+    	  <%= @category.title %>
+      </div>
+    </nav>
 
-<p>
-  <strong>Title:</strong>
-  <%= @category.title %>
-</p>
-
-<%= link_to 'Edit', edit_category_path(@category) %> |
-<%= link_to 'Back', categories_path %>
+    <div class="columns is-mobile">
+      <div class="buttons mb-3 mt-4">
+        <%= link_to 'Edit', edit_category_path(@category), class: "button is-link is-light is-grey" %> 
+        <%= link_to 'Back', categories_path, class: "button is-link is-light is-grey" %>
+      </div>
+    </div>
+  </div>
+</div>
