@@ -1,24 +1,22 @@
-# README
+Foodlog app with added features(associations) and a bit of UI updates in all pages. 
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Using:- 
+1) Ruby version - '2.5.0'
+2) Rails version - '6.0.3'
 
-Things you may want to cover:
+# Steps to use:-
+1) Clone the repo.
+2) run rails db:setup
+3) run rails db:migrate
+4) run rails s
 
-* Ruby version
+Using Bulma for CSS, Devise for User_auth and Session controlling.
 
-* System dependencies
+# Future Scope:- 
+Adding feature to input food items and their weight and calculate the calories and show.
 
-* Configuration
 
-* Database creation
 
-* Database initialization
+### This app is already deployed on heroku- https://foods-log.herokuapp.com/, so the config setup for the deployment on heroku is already done seperately. 
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+### On local(production env) it will use sqlite3 db and deployment will have postgresql(for heroku).
