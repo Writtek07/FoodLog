@@ -1,5 +1,9 @@
 Foodlog app with added features(associations) and a bit of UI updates in all pages. 
 
+# Using:- 
+1) Ruby version - '2.5.0'
+2) Rails version - '6.0.3'
+
 # Steps to use:-
 1) Clone the repo.
 2) run rails db:setup
