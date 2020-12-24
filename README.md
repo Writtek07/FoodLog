@@ -12,4 +12,4 @@ Using Bulma for CSS, Devise for User_auth and Session controlling.
 
 ### This app is already deployed on heroku- https://foods-log.herokuapp.com/, so the config setup for the deployment on heroku is already done seperately. 
 
-# On local(production env) it will use sqlite3 db and deployment will have postgresql(for heroku).
+### On local(production env) it will use sqlite3 db and deployment will have postgresql(for heroku).
