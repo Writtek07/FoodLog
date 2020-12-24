@@ -1,24 +1,11 @@
-# README
+Foodlog app with added features(associations) and a bit of UI updates in all pages. 
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Steps to use:-
+1) Clone the repo.
+2) run rails db:setup
+3) run rails db:migrate
+4) run rails s
 
-Things you may want to cover:
+Using Bulma for CSS, Devise for User_auth and Session controlling.
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Future Scope:- Adding feature to input food items and their weight and calculate the calories and show.
